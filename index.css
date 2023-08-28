@@ -3,12 +3,40 @@ body{
     flex-direction: row;
 }
 .block-1{
-    background-image: url("fastFood1.jpg");
+    display: flex;
+   
     width: 100%;
     height: 500px;
-    background-position: center;
-   background-repeat: no-repeat; 
-   background-size: cover;
+   
+   position: relative;
     
+    
+}
+.landing{
+    width: 100%;
+    height: 500px;
+    
+}
+ .cover{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    
+    
+}
+.small-lines{
+    
+    display: flex;
+    flex-direction: column;
+    height: 8%;
+    width: 3%;
+    
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+.one-line{
+    border: 2px solid white;
     
 }
