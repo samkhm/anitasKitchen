@@ -1,49 +1,104 @@
-body{
+body {
+  display: flex;
+  flex-direction: column;
+}
+.block-1 {
+  display: flex;
+
+  width: 100%;
+  height: 550px;
+
+  position: relative;
+}
+.landing {
+  width: 100%;
+  height: 550px;
+}
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 550px;
+  display: flex;
+}
+.small-lines {
+  display: flex;
+  flex-direction: column;
+  height: 8%;
+  width: 3%;
+
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.one-line {
+  border: 2px solid white;
+}
+
+.logo {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+}
+.provide {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 75%;
+  left: 35%;
+  width: 35%;
+}
+.provide p {
+  color: white;
+  text-transform: capitalize;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+.block-2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
     display: flex;
     flex-direction: row;
 }
-.block-1{
-    display: flex;
-   
-    width: 100%;
-    height: 500px;
-   
-   position: relative;
-    
-    
-}
-.landing{
-    width: 100%;
-    height: 500px;
-    
-}
- .cover{
-    position: absolute;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    
-    
-}
-.small-lines{
-    
+.block-right{
+    background-color: green;
+    width: 30%;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    height: 8%;
-    width: 3%;
-    
-    justify-content: space-around;
-    margin-top: 5%;
-    margin-left: 5%;
+    position: relative;
+
 
 }
-.one-line{
-    border: 2px solid white;
-    
+.hour{
+    width: 100%;
+    height: 150px;
+    background-color: brown;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.hour h2{
+    text-transform: capitalize;
+}
+.time{
+    width: 100%;
+    height: 150px;
+    background-color: blueviolet;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
 
-.logo{
-    position: absolute;
-    margin-top: 8%;
-    margin-left: 40%;
+.time h2{
+    text-transform: capitalize;
+}
+.block-left{
+    background-color: blue;
+    width: 70%;
+    height: 300px;
 }
