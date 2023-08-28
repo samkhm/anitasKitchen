@@ -158,142 +158,211 @@ body {
   text-transform: capitalize;
 }
 
-.block-3{
-    width: 100%;
-    height: 400px;
-    position: relative;
-    display: flex;
-    background-color: white;
-    flex-direction: row;
-
+.block-3 {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
 }
-.left{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border: 10px solid white;
-    width: 25%;
-    height: 60%;
-    left: 20%;
-    top: 20%;
-    box-shadow: 5px 5px 10px 3px whitesmoke;
+.left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 10px solid white;
+  width: 25%;
+  height: 60%;
+  left: 20%;
+  top: 20%;
+  box-shadow: 5px 5px 10px 3px whitesmoke;
 }
-.image1{
-    
-    background-image: url("fastFood1.jpg");
-    height: 50%;
-    width: 100%;
-    background-position: center;
-  background-repeat: no-repeat; 
+.image1 {
+  background-image: url("fastFood1.jpg");
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-.image2{
-    
-    background-image: url("fastFood2.jpg");
-    height: 50%;
-    width: 100%;
-    background-position: center;
-  background-repeat: no-repeat; 
+.image2 {
+  background-image: url("fastFood2.jpg");
+  height: 50%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  
 }
-.right{
-    background-color: white;
-    width: 30%;
-    position: absolute;
-    top: 20%;
-    left: 50%;
+.right {
+  background-color: white;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
 }
-.right h1{
-    text-align: left;
-    text-transform: capitalize;
+.right h1 {
+  text-align: left;
+  text-transform: capitalize;
 }
-.arrow{
-    position: absolute;
-    width: 50%;
-    height: 10%;
-   
-    border: 1px solid #FAC4B2;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 3px solid #FAC4B2;
+.arrow {
+  position: absolute;
+  width: 50%;
+  height: 10%;
+
+  border: 1px solid #fac4b2;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid #fac4b2;
 }
 
-.arrow h3{
-    color: #f15b29;
-    text-transform: uppercase;
+.arrow h3 {
+  color: #f15b29;
+  text-transform: uppercase;
 }
 
 /*block 4*/
-.block-4{
-    width: 100%;
-    height: 400px;
-    position: relative;
+.block-4 {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+}
+
+.left1 {
+  background-color: white;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.left1 h1 {
+  text-align: left;
+  text-transform: capitalize;
+}
+.arrow1 {
+  position: absolute;
+  width: 50%;
+  height: 10%;
+
+  border: 1px solid #fac4b2;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid #fac4b2;
+}
+
+.arrow1 h3 {
+  color: #f15b29;
+  text-transform: uppercase;
+}
+
+.right1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border: 10px solid white;
+  width: 25%;
+  height: 60%;
+  left: 50%;
+  top: 20%;
+  box-shadow: 5px 5px 10px 3px whitesmoke;
+}
+.image3 {
+  background-image: url("drink1.jpg");
+  height: 100%;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image4 {
+  background-image: url("drink2.jpg");
+  height: 100%;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.block-5{
+background-image: url("foodsBg.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.components{
     display: flex;
+    position: absolute;
     background-color: white;
+    width: 70%;
+    height: 75%;
+}
+.menu{
+    display: flex;
     flex-direction: row;
-
-}
-
-
-.left1{
-    background-color: white;
-    width: 30%;
     position: absolute;
-    top: 20%;
-    left: 20%;
-}
-.left1 h1{
-    text-align: left;
-    text-transform: capitalize;
-}
-.arrow1{
-    position: absolute;
-    width: 50%;
-    height: 10%;
-   
-    border: 1px solid #FAC4B2;
-    border-radius: 3px;
-    display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    border-top: 3px solid #FAC4B2;
+    text-align: center;
+}
+.menu div{
+    width: 25%;
+    background-color: #E3E3E3;
+}
+.menu #fast{
+    background-color: white;
+}
+.menu div h3{
+    text-transform: capitalize;
 }
 
-.arrow1 h3{
-    color: #f15b29;
-    text-transform: uppercase;
-}
-
-.right1{
-    position: relative;
+.images{
     display: flex;
     flex-direction: row;
-    border: 10px solid white;
+    justify-content: space-around;
+    padding: 5px;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    top: 30%;
+    padding-bottom: 5px;
+    
+}
+.img{
     width: 25%;
-    height: 60%;
-    left: 50%;
-    top: 20%;
-    box-shadow: 5px 5px 10px 3px whitesmoke;
 }
-.image3{
-    
-    background-image: url("drink1.jpg");
-    height: 100%;
-    width: 50%;
-    background-position: center;
-  background-repeat: no-repeat; 
+.img img{
+ height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-}
-.image4{
-    
-    background-image: url("drink2.jpg");
-    height: 100%;
-    width: 50%;
-    background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   
+
+}
+.img h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: #f15b29;
+    padding-bottom: 5px;
+}
+.signs{
+    color: #f15b29;
+    font-size: 90px;
+    margin-top: 3%;
 }
