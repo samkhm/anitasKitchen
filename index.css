@@ -439,3 +439,16 @@ height: 5%;
     display: flex;
     margin-top: 60%;
 }
+
+.block-7{
+    background-image: url("subscribe.jpg");
+      height: 300px;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+    }
