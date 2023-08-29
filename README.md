@@ -41,7 +41,7 @@ code .
 ## Screenshots
 Look sample of work being done in this picture
 
-![Webimage](anita.PNG)
+![Webimage](annitas.PNG)
 
 ## Author Information
 This project was build and being mantained by
