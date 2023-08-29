@@ -1,7 +1,7 @@
 # ANITA'S KITCHEN
 This Anita's Kitchen web page showing the available types of food stuffs. It also shows the locaton of the restaurant and the different drinks available in her kitchen. It also shows the most customers and give more details about the restaurant
 
-- [Street Food Website](https://github.com/samkhm/anitasKitchen.git)
+- [Anita's Kitchen](https://github.com/samkhm/anitasKitchen.git)
 
 - [Live Site](https://samkhm.github.io/anitasKitchen/)
 
@@ -41,7 +41,7 @@ code .
 ## Screenshots
 Look sample of work being done in this picture
 
-![Webimage](.PNG)
+![Webimage](anita.PNG)
 
 ## Author Information
 This project was build and being mantained by
